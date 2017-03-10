@@ -46,6 +46,7 @@
     <Compile Include="IOperation.cs" />
     <Compile Include="KwicPipeline.cs" />
     <Compile Include="LineComparer.cs" />
+    <Compile Include="NoiseRemover.cs" />
     <Compile Include="Pipeline.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -58,6 +59,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="noiseword.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="test.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

@@ -51,6 +51,9 @@ namespace KWIC
                     case "Sorter":
                         Register(new Sorter());
                         break;
+                    case "NoiseRemover":
+                        Register(new NoiseRemover());
+                        break;
                     default:
                         break;
                 }

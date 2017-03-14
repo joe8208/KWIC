@@ -27,7 +27,7 @@ namespace KWIC
 
                 foreach (string noiseWord in noiseWordsFile)
                 {
-                    if (words[0].ToLower() == noiseWord)
+                    if (words[0].ToLower() == noiseWord.ToLower())
                     {
                         listOfWords.Remove(line);
                     }

@@ -20,9 +20,9 @@ namespace KWIC
 
             while (!isValidFile)
             {
-                Console.WriteLine("Please Enter the path of the file describing the filter sequence:");
-                filePath = Console.ReadLine();
-
+                //Console.WriteLine("Please Enter the path of the file describing the filter sequence:");
+                //filePath = Console.ReadLine();
+                filePath = "filter.txt";
                 try
                 {
                     lines = File.ReadLines(filePath);

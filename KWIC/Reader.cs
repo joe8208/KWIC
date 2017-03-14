@@ -20,9 +20,9 @@ namespace KWIC
 
             while (!isValidFile)
             {
-                Console.WriteLine("Please enter a valid path of data file:");
-                filePath = Console.ReadLine();
-
+                //Console.WriteLine("Please enter a valid path of data file:");
+                //filePath = Console.ReadLine();
+                filePath = "test.txt";
                 try
                 {
                     inputFile = File.ReadLines(filePath);

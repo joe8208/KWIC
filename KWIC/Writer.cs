@@ -16,7 +16,7 @@ namespace KWIC
                 Console.WriteLine(line);
             }
 
-            Console.ReadLine();
+            //Console.ReadLine();
             return input;
             //yield break;
         }

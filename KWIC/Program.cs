@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace KWIC
 {
@@ -20,7 +21,12 @@ namespace KWIC
         static void Main(string[] args)
         {
             KwicPipeline pipeline = new KwicPipeline();
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
             pipeline.Execute();
+            sw.Stop();
+            Console.WriteLine(sw.Elapsed.ToString());
+            Console.ReadLine();
         }
     }
 }
